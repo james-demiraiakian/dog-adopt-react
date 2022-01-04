@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
+import Dogs from '../components/Dogs/Dogs';
 import { getDogs } from '../services/dogs';
 
 export default function DogList() {
@@ -10,17 +11,19 @@ export default function DogList() {
     const fetchData = async () => {
       const data = await getDogs();
       setDogs(data);
-      setLoading(false);
       console.log(data);
     };
     fetchData();
+    setLoading(false);
   }, []);
+
+  if (loading) return <h1>LOADING</h1>;
 
   return (
     <div className="dog-list">
       {dogs.map((d) => (
         <Link key={d.id} to={`/dogs/${d.id}`}>
-          {d.name}
+          <Dogs {...d} />
         </Link>
       ))}
     </div>

@@ -7,7 +7,6 @@ import DogDetails from './view/DogDetails';
 function App() {
   return (
     <div className="App">
-      <h1>Palm Springs Animal Shelter</h1>
       <BrowserRouter>
         <Header />
         <Switch>

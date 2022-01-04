@@ -1,5 +1,4 @@
 import React from 'react';
-import DogList from '../../view/DogList';
 import './Dogs.css';
 
 export default function Dogs(props) {

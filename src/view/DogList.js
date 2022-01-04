@@ -11,7 +11,6 @@ export default function DogList() {
     const fetchData = async () => {
       const data = await getDogs();
       setDogs(data);
-      console.log(data);
     };
     fetchData();
     setLoading(false);

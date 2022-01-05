@@ -1,0 +1,17 @@
+.dog-list {
+  display: flex;
+  margin-top: 20vw;
+  /* padding-left: 100%; */
+  /* animation: float 25s infinite linear; */
+  white-space: nowrap;
+}
+
+.dog-list:hover {
+  animation-play-state: paused;
+}
+
+@keyframes float {
+  to {
+    transform: translateX(-100%);
+  }
+}

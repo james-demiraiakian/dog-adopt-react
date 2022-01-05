@@ -1,13 +1,14 @@
 import React from 'react';
+import './Dog.css';
 
 export default function Dog({ age, bio, breed, name, image }) {
   return (
     <div className="dog-detail">
-      <h3>{name}</h3>
+      <h2>{name}</h2>
       <img className="dog-detail-image" src={image} />
-      <h5>Age: {age}</h5>
-      <h5>Breed: {breed}</h5>
-      <h5>Bio: {bio}</h5>
+      <h4>Age: {age}</h4>
+      <h4>Breed: {breed}</h4>
+      <h4>Bio: {bio}</h4>
     </div>
   );
 }

@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dog /> should render doggo info 1`] = `
+<div>
+  <div
+    class="dog-detail"
+  >
+    <h2>
+      Blarg
+    </h2>
+    <img
+      class="dog-detail-image"
+      src="qwop"
+    />
+    <h4>
+      Age: 
+      100
+    </h4>
+    <h4>
+      Breed: 
+      Doggo
+    </h4>
+    <h4>
+      Bio: 
+      hfdjska fhjdk hfjdksl
+    </h4>
+  </div>
+</div>
+`;

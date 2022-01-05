@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Dogs from '../components/Dogs/Dogs';
 import { getDogs } from '../services/dogs';
+import './DogList.css';
 
 export default function DogList() {
   const [dogs, setDogs] = useState([]);

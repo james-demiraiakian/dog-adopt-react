@@ -1,6 +1,6 @@
 .dog-list {
   display: flex;
-  margin-top: 20vw;
+  margin-top: 15vw;
   padding-left: 100%;
   animation: float 30s infinite linear;
   white-space: nowrap;
@@ -14,4 +14,11 @@
   to {
     transform: translateX(-100%);
   }
+}
+
+.dog-link {
+  margin-left: 1vw;
+  /* border: 5px solid black;
+  border-radius: 20px;
+  box-shadow: 10 10 10 black; */
 }

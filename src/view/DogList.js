@@ -22,7 +22,7 @@ export default function DogList() {
   return (
     <div className="dog-list">
       {dogs.map((d) => (
-        <Link key={d.id} to={`/dogs/${d.id}`}>
+        <Link className="dog-link" key={d.id} to={`/dogs/${d.id}`}>
           <Dogs {...d} />
         </Link>
       ))}

@@ -5,7 +5,7 @@ export default function Dogs(props) {
   return (
     <div className="dog-crate">
       <img className="image" src={props.image} />
-      <h4>{props.name}</h4>
+      <h3>{props.name}</h3>
     </div>
   );
 }

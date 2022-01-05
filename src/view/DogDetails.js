@@ -13,6 +13,7 @@ export default function DogDetails() {
       const data = await getDogById(params.id);
       setDog(data);
       setLoading(false);
+      console.log(data);
     };
     fetchData();
   }, [params.id]);

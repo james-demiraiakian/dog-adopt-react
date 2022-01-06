@@ -4,6 +4,7 @@ import Header from './components/Header/Header';
 import DogList from './view/DogList';
 import DogDetails from './view/DogDetails';
 import DogEdit from './view/DogEdit';
+import DogAdd from './view/DogAdd';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         <Switch>
           <Route path="/dogs/:id/edit" component={DogEdit} />
           <Route path="/dogs/:id" component={DogDetails} />
-          {/* <Route path="/admin" component={DogEdit} /> */}
+          <Route path="/admin" component={DogAdd} />
           <Route path="/" component={DogList} />
         </Switch>
       </BrowserRouter>

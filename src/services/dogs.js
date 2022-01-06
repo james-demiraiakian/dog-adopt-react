@@ -10,9 +10,7 @@ export async function getDogById(id) {
   return checkError(request);
 }
 
-export async function addDog(id, name, bio, age, image, breed) {
-  const request = await client
-    .from('dogs')
-    .insert([{ name: { name }, bio: { bio }, age: { age }, image: { image }, breed: { breed } }]);
+export async function updateDog(id, name, bio, age, image, breed) {
+  const request = await client.from('dogs').update({ name, bio, age, image, breed }).eq('id', id);
   return checkError(request);
 }

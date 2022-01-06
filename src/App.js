@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Header from './components/Header/Header';
 import DogList from './view/DogList';
 import DogDetails from './view/DogDetails';
-import EditDog from './components/EditDog/EditDog';
+import DogEdit from './view/DogEdit';
 
 function App() {
   return (
@@ -11,9 +11,9 @@ function App() {
       <BrowserRouter>
         <Header />
         <Switch>
-          <Route path="/dogs/:id/edit" component={EditDog} />
+          <Route path="/dogs/:id/edit" component={DogEdit} />
           <Route path="/dogs/:id" component={DogDetails} />
-          <Route path="/admin" component={EditDog} />
+          {/* <Route path="/admin" component={DogEdit} /> */}
           <Route path="/" component={DogList} />
         </Switch>
       </BrowserRouter>

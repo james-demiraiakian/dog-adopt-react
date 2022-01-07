@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render an empty test page 1`] = `
+<div>
+  <div>
+    <h2>
+      Add Dog
+    </h2>
+    <div>
+      <form
+        class="dog-form"
+      >
+        <input
+          placeholder="Name"
+          type="text"
+          value=""
+        />
+        <input
+          placeholder="Age"
+          type="number"
+          value="0"
+        />
+        <input
+          placeholder="Breed"
+          type="text"
+          value=""
+        />
+        <input
+          placeholder="Bio"
+          type="text"
+          value=""
+        />
+        <input
+          placeholder="Image URL"
+          type="text"
+          value=""
+        />
+        <button>
+          Submit
+        </button>
+      </form>
+    </div>
+    <h1 />
+  </div>
+</div>
+`;

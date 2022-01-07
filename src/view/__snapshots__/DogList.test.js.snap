@@ -7,6 +7,22 @@ exports[`should render a list of dogs 1`] = `
   >
     <a
       class="dog-link"
+      href="/dogs/1"
+    >
+      <div
+        class="dog-crate"
+      >
+        <img
+          class="image"
+          src="https://generator.ninja/static/5095f8cd6eeb3efdb8a9ad0420d5b41a/60219/english-cocker-spaniel.jpg"
+        />
+        <h3>
+          Geraldineatrice
+        </h3>
+      </div>
+    </a>
+    <a
+      class="dog-link"
       href="/dogs/2"
     >
       <div
@@ -14,10 +30,10 @@ exports[`should render a list of dogs 1`] = `
       >
         <img
           class="image"
-          src="https://placedog.net/500?id=12"
+          src="https://generator.ninja/static/19cd4e2dbb921a05473bdc36c29a9083/0b129/bearded-collie.jpg"
         />
         <h3>
-          Amely
+          Penelope
         </h3>
       </div>
     </a>
@@ -30,10 +46,10 @@ exports[`should render a list of dogs 1`] = `
       >
         <img
           class="image"
-          src="https://placedog.net/500?id=10"
+          src="https://www.gannett-cdn.com/-mm-/b2b05a4ab25f4fca0316459e1c7404c537a89702/c=0-0-1365-768/local/-/media/2018/07/25/USATODAY/usatsports/gettyimages-71285912-e1532446774693.jpg?width=660&height=372&fit=crop&format=pjpg&auto=webp"
         />
         <h3>
-          Althea
+          Sarah
         </h3>
       </div>
     </a>
@@ -46,10 +62,10 @@ exports[`should render a list of dogs 1`] = `
       >
         <img
           class="image"
-          src="https://placedog.net/500?id=51"
+          src="https://generator.ninja/static/50a86cb17862a23623a7cac32d0db051/dc4db/appenzeller-dog.jpg"
         />
         <h3>
-          Franny
+          Molly
         </h3>
       </div>
     </a>
@@ -62,10 +78,10 @@ exports[`should render a list of dogs 1`] = `
       >
         <img
           class="image"
-          src="https://placedog.net/500?id=8"
+          src="https://live-production.wcms.abc-cdn.net.au/e81a3a2313e26e1aee1c295d0e508a58?impolicy=wcms_crop_resize&cropH=1688&cropW=3000&xPos=0&yPos=274&width=862&height=485"
         />
         <h3>
-          Melba
+          Caroline
         </h3>
       </div>
     </a>
@@ -78,10 +94,26 @@ exports[`should render a list of dogs 1`] = `
       >
         <img
           class="image"
-          src="https://images.pexels.com/photos/6246667/pexels-photo-6246667.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260"
+          src="https://generator.ninja/static/75944d4e6739a3f4dcd79965b9205398/60219/american-water-spaniel.jpg"
         />
         <h3>
-          Ron
+          Kevin
+        </h3>
+      </div>
+    </a>
+    <a
+      class="dog-link"
+      href="/dogs/7"
+    >
+      <div
+        class="dog-crate"
+      >
+        <img
+          class="image"
+          src="https://generator.ninja/static/970fce3c83fe71589722367bc59d4c4f/b834a/irish-setter.jpg"
+        />
+        <h3>
+          Herbert
         </h3>
       </div>
     </a>
@@ -94,10 +126,10 @@ exports[`should render a list of dogs 1`] = `
       >
         <img
           class="image"
-          src="https://placedog.net/500?id=4"
+          src="https://generator.ninja/static/7e94cde483b748c693ea531fc4869525/b834a/bolognese-dog.jpg"
         />
         <h3>
-          Eileen
+          Stanley
         </h3>
       </div>
     </a>
@@ -110,10 +142,10 @@ exports[`should render a list of dogs 1`] = `
       >
         <img
           class="image"
-          src="https://placedog.net/500?id=5"
+          src="https://generator.ninja/static/ce716d054d2be6afcaed2c4ac0adf285/6bed8/labrador-retriever.jpg"
         />
         <h3>
-          Liliana
+          George
         </h3>
       </div>
     </a>
@@ -126,90 +158,10 @@ exports[`should render a list of dogs 1`] = `
       >
         <img
           class="image"
-          src="https://placedog.net/500?id=6"
+          src="https://generator.ninja/static/83e8b6fcd2ddd8bdc94e731883ec5405/b834a/doberman-pinscher.jpg"
         />
         <h3>
-          Barton
-        </h3>
-      </div>
-    </a>
-    <a
-      class="dog-link"
-      href="/dogs/11"
-    >
-      <div
-        class="dog-crate"
-      >
-        <img
-          class="image"
-          src="https://placedog.net/500?id=21"
-        />
-        <h3>
-          Happy
-        </h3>
-      </div>
-    </a>
-    <a
-      class="dog-link"
-      href="/dogs/14"
-    >
-      <div
-        class="dog-crate"
-      >
-        <img
-          class="image"
-          src="https://placedog.net/500?id=22"
-        />
-        <h3>
-          Eyes
-        </h3>
-      </div>
-    </a>
-    <a
-      class="dog-link"
-      href="/dogs/15"
-    >
-      <div
-        class="dog-crate"
-      >
-        <img
-          class="image"
-          src="https://placedog.net/500?id=26"
-        />
-        <h3>
-          Pugilicious
-        </h3>
-      </div>
-    </a>
-    <a
-      class="dog-link"
-      href="/dogs/16"
-    >
-      <div
-        class="dog-crate"
-      >
-        <img
-          class="image"
-          src="https://images.pexels.com/photos/5886866/pexels-photo-5886866.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
-        />
-        <h3>
-          Ginny
-        </h3>
-      </div>
-    </a>
-    <a
-      class="dog-link"
-      href="/dogs/17"
-    >
-      <div
-        class="dog-crate"
-      >
-        <img
-          class="image"
-          src="https://placedog.net/1000/563?id=3"
-        />
-        <h3>
-          Mrs. Weasley
+          Khalid
         </h3>
       </div>
     </a>

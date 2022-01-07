@@ -24,6 +24,11 @@ exports[`<Dog /> should render doggo info 1`] = `
       Bio: 
       hfdjska fhjdk hfjdksl
     </h4>
+    <a
+      href="/dogs/undefined/edit"
+    >
+      Edit
+    </a>
   </div>
 </div>
 `;

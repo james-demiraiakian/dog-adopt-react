@@ -20,6 +20,6 @@ export async function addDog(name, bio, age, image, breed) {
 }
 
 export async function deleteDog(id) {
-  const request = await client.from('dogs').delete.match({ id: id });
+  const request = await client.from('dogs').delete().eq('id', id);
   return checkError(request);
 }

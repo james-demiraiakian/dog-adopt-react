@@ -9,7 +9,7 @@ test('should render a list of dogs', async () => {
     </MemoryRouter>
   );
 
-  await screen.findByText('Eyes', 'Althea');
+  await screen.findByText('Caroline', 'Khalid');
 
   expect(container).toMatchSnapshot();
 });

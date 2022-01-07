@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render the edit page 1`] = `
+<div>
+  <div>
+    <h2>
+      Edit Dog
+    </h2>
+    <div>
+      <form
+        class="dog-form"
+      >
+        <input
+          placeholder="Name"
+          type="text"
+          value="Caroline"
+        />
+        <input
+          placeholder="Age"
+          type="number"
+          value="4"
+        />
+        <input
+          placeholder="Breed"
+          type="text"
+          value="Dingo"
+        />
+        <input
+          placeholder="Bio"
+          type="text"
+          value="Don't let her eat your baby."
+        />
+        <input
+          placeholder="Image URL"
+          type="text"
+          value="https://live-production.wcms.abc-cdn.net.au/e81a3a2313e26e1aee1c295d0e508a58?impolicy=wcms_crop_resize&cropH=1688&cropW=3000&xPos=0&yPos=274&width=862&height=485"
+        />
+        <button>
+          Submit
+        </button>
+        <button>
+          Delete
+        </button>
+      </form>
+    </div>
+    <h1 />
+  </div>
+</div>
+`;

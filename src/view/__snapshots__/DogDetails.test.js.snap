@@ -6,11 +6,11 @@ exports[`should render a dog 1`] = `
     class="dog-detail"
   >
     <h2>
-      Franny
+      Molly
     </h2>
     <img
       class="dog-detail-image"
-      src="https://placedog.net/500?id=51"
+      src="https://generator.ninja/static/50a86cb17862a23623a7cac32d0db051/dc4db/appenzeller-dog.jpg"
     />
     <h4>
       Age: 
@@ -18,12 +18,17 @@ exports[`should render a dog 1`] = `
     </h4>
     <h4>
       Breed: 
-      French Bulldog
+      Appenzeller
     </h4>
     <h4>
       Bio: 
-      Sweet Frenchie with lots of love to give.
+      Eye see you.
     </h4>
+    <a
+      href="/dogs/4/edit"
+    >
+      Edit
+    </a>
   </div>
 </div>
 `;

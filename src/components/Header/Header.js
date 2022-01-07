@@ -6,9 +6,10 @@ export default function Header() {
   return (
     <div className="header">
       <h1>Palm Springs Animal Shelter</h1>
-      <NavLink className="home-navlink" to="/">
-        Home
-      </NavLink>
+      <div className='"home-navlink'>
+        <NavLink to="/">Home</NavLink>
+        <NavLink to="/admin">Admin</NavLink>
+      </div>
     </div>
   );
 }

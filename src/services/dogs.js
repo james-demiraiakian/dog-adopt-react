@@ -14,3 +14,12 @@ export async function updateDog(id, name, bio, age, image, breed) {
   const request = await client.from('dogs').update({ name, bio, age, image, breed }).eq('id', id);
   return checkError(request);
 }
+export async function addDog(name, bio, age, image, breed) {
+  const request = await client.from('dogs').insert({ name, bio, age, image, breed });
+  return checkError(request);
+}
+
+export async function deleteDog(id) {
+  const request = await client.from('dogs').delete.match({ id: id });
+  return checkError(request);
+}

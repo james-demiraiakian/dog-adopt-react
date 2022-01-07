@@ -1,14 +1,14 @@
 import React from 'react';
 
 export default function EditDog({
+  name,
+  setName,
   age,
   setAge,
   bio,
   setBio,
   breed,
   setBreed,
-  name,
-  setName,
   image,
   setImage,
   handleSubmit,

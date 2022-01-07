@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useHistory } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import EditDog from '../components/EditDog/EditDog';
-import { getDogById, updateDog } from '../services/dogs';
+import { deleteDog, getDogById, updateDog } from '../services/dogs';
 
 export default function DogEdit() {
   const [name, setName] = useState('');
@@ -42,6 +42,20 @@ export default function DogEdit() {
     }
   };
 
+  const handleDelete = async (e) => {
+    e.preventDefault();
+    try {
+      await deleteDog(params.id);
+      setMessage('Dog Sucessfully Deleted');
+
+      setTimeout(() => {
+        history.push('/');
+      }, 3000);
+    } catch {
+      setMessage('Something went wrong.');
+    }
+  };
+
   return (
     <div>
       <h2>Edit Dog</h2>
@@ -57,6 +71,7 @@ export default function DogEdit() {
         breed={breed}
         setBreed={setBreed}
         handleSubmit={handleSubmit}
+        handleDelete={handleDelete}
       />
       <h1>{message}</h1>
     </div>

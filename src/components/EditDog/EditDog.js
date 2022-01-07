@@ -1,19 +1,20 @@
 import React from 'react';
 import './EditDog.css';
 
-export default function EditDog(
-  { age,
-    setAge,
-    bio,
-    setBio,
-    breed,
-    setBreed,
-    name,
-    setName,
-    image,
-    setImage,
-    handleSubmit }
-) {
+export default function EditDog({
+  age,
+  setAge,
+  bio,
+  setBio,
+  breed,
+  setBreed,
+  name,
+  setName,
+  image,
+  setImage,
+  handleSubmit,
+  handleDelete,
+}) {
   return (
     <div>
       <form className="dog-form">
@@ -22,7 +23,7 @@ export default function EditDog(
           placeholder="Name"
           value={name}
           onChange={(e) => {
-            setName(e.target.value); 
+            setName(e.target.value);
           }}
         />
         <input
@@ -58,6 +59,7 @@ export default function EditDog(
           }}
         />
         <button onClick={handleSubmit}>Submit</button>
+        <button onClick={handleDelete}>Delete</button>
       </form>
     </div>
   );
